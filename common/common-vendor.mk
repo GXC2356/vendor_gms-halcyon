@@ -187,6 +187,25 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/system/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
     vendor/gms/common/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml
 
+# Recorder
+ifeq ($(TARGET_SUPPORTS_GOOGLE_RECORDER),true)
+PRODUCT_PACKAGES += \
+    RecorderPrebuilt
+endif
+
+# arcore
+ifeq ($(TARGET_INCLUDE_STOCK_ARCORE),true)
+PRODUCT_PACKAGES += \
+    arcore
+endif
+
+# Live Wallpapers
+ifeq ($(TARGET_INCLUDE_LIVE_WALLPAPERS),true)
+PRODUCT_PACKAGES += \
+    PixelLiveWallpaperPrebuilt \
+    PixelWallpapers2023
+endif
+
 PRODUCT_PACKAGES += \
     GoogleExtShared \
     GooglePrintRecommendationService \
@@ -208,7 +227,6 @@ PRODUCT_PACKAGES += \
     Photos \
     PixelThemesStub \
     PixelThemesStub2022_and_newer \
-    PixelWallpapers2023 \
     PrebuiltDeskClockGoogle \
     PrebuiltGmail \
     SoundAmplifierPrebuilt \
@@ -217,7 +235,6 @@ PRODUCT_PACKAGES += \
     TrichromeLibrary-Stub \
     WallpaperEmojiPrebuilt-v470 \
     WebViewGoogle-Stub \
-    arcore \
     talkback \
     AICorePrebuilt \
     AiWallpapers \
@@ -232,7 +249,6 @@ PRODUCT_PACKAGES += \
     HealthIntelligenceStubPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
-    PixelLiveWallpaperPrebuilt \
     PrebuiltBugle \
     PrebuiltGmsCore \
     PrebuiltGmsCoreSc_AdsDynamite \
@@ -246,7 +262,6 @@ PRODUCT_PACKAGES += \
     AndroidPlatformServices \
     MlkitBarcodeUIPrebuilt \
     VisionBarcodePrebuilt \
-    RecorderPrebuilt \
     SafetyHubPrebuilt \
     ScribePrebuilt \
     SearchSelectorPrebuilt \
