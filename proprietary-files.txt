@@ -340,6 +340,7 @@ product/etc/permissions/com.google.android.apps.setupwizard.searchselector.xml
 # Sysconfig
 product/etc/preferred-apps/google.xml
 product/etc/sysconfig/allowlist_com.android.omadm.service.xml
+product/etc/sysconfig/game_service.xml
 product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
 product/etc/sysconfig/google-staged-installer-whitelist.xml
 product/etc/sysconfig/google.xml
