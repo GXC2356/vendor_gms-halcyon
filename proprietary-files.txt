@@ -345,6 +345,7 @@ product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
 product/etc/sysconfig/google-staged-installer-whitelist.xml
 product/etc/sysconfig/google.xml
 product/etc/sysconfig/google_build.xml
+product/etc/sysconfig/google_searcle.xml|1d676d830b61a133b05cc6e21a51068d2957f084
 product/etc/sysconfig/nexus.xml
 product/etc/sysconfig/pixel_experience_2017.xml
 product/etc/sysconfig/pixel_experience_2018.xml
