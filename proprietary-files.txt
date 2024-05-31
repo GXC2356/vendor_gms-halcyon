@@ -88,9 +88,6 @@ product/usr/share/ime/google/d3_lms/ko_2018030706.zip
 product/usr/share/ime/google/d3_lms/mozc.data
 product/usr/share/ime/google/d3_lms/zh_CN_2018030706.zip
 
-# Launcher
--system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk;apkOVERRIDES=Launcher3,Launcher3QuickStep,TrebuchetQuickStep;PRESIGNED
-
 # LockScreen clocks
 -system_ext/priv-app/SystemUIClocks-BigNum/SystemUIClocks-BigNum.apk
 -system_ext/priv-app/SystemUIClocks-Calligraphy/SystemUIClocks-Calligraphy.apk
