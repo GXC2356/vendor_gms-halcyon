@@ -1105,20 +1105,6 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "WallpaperPickerGoogleRelease",
-	owner: "gms",
-	apk: "proprietary/system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk",
-	overrides: ["ThemePicker", "WallpaperPicker", "WallpaperPicker2", "WallpaperCropper"],
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
 dex_import {
 	name: "com.google.android.dialer.support",
 	owner: "gms",
