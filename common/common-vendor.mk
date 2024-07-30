@@ -276,7 +276,6 @@ PRODUCT_PACKAGES += \
     EmergencyInfoGoogleNoUi \
     Flipendo \
     GoogleServicesFramework \
-    NexusLauncherRelease \
     SetupWizardPixelPrebuilt \
     StorageManagerGoogle \
     SystemUIClocks-BigNum \

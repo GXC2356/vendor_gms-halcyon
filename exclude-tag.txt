@@ -38,6 +38,7 @@ string-array:fingerprint_acquired_vendor
 string-array:fingerprint_error_vendor
 string:config_cameraGesturePackage
 string:config_incidentReportApproverPackage
+string:config_recentsComponentName
 string:config_secondaryLocationTimeZoneProviderPackageName
 string:config_systemBluetoothStack
 string:def_wireless_charging_started_sound
