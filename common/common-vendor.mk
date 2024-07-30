@@ -287,7 +287,6 @@ PRODUCT_PACKAGES += \
     SystemUIClocks-NumOverlap \
     SystemUIClocks-Weather \
     TurboAdapter \
-    WallpaperPickerGoogleRelease \
     com.google.android.dialer.support \
     privapp_allowlist_com.google.android.ext.services
 
